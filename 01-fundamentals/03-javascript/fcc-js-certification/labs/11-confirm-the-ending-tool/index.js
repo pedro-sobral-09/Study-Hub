@@ -1,12 +1,12 @@
 function confirmEnding(str, endStr){
   const result = str.slice(endStr.length * -1);
-  // console.log(endStr.length * -1)
-  // console.log(result)
+  // console.log(endStr.length * -1);
+  // console.log(result);
   if (result == endStr){
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
 }
 
-console.log(confirmEnding("Bastian", "n"))
+console.log(confirmEnding("Bastian", "n"));

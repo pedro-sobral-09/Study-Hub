@@ -11,4 +11,4 @@ function truncateString(str, num){
 }
 
 console.log(truncateString("A-tisket a-tasket A green and yellow basket", 8));
-console.log(truncateString("Absolutely Longer", 2))
+console.log(truncateString("Absolutely Longer", 2));
