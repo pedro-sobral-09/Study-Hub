@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Checkout Page</title>
+    </head>
+    <body>
+        <main>
+            <h1>Checkout</h1>
+            <section>
+                <h2>Your Cart</h2>
+                <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="scrambled magic cube">
+                <p>Scrambled magic cube <br> R$ 30,00</p>
+
+            </section>
+            <section>
+                <h2>Payment Information</h2>
+                <form>
+                    <label for="card-name">Cardholder Name <span aria-hidden="true">*</span></label>
+                    <input type="text" id="card-name" name="card-name" required> 
+                    
+                    <label for="card-number"><br>Card Number <span aria-hidden="true">*</span></label>
+                    <input type="text" id="card-number" name="card-number" required aria-describedby="card-number-help">
+                    <p id="card-number-help">Please enter your 16-digit card number without spaces or dashes.</p>
+
+                    <label for="card-expire-date">Expire date <span aria-hidden="true">*</span></label>
+                    <input type="month" id="card-expire-date" name="card-expire-date" required>
+
+                    <label for="card-expire-date"><br>CVV<span aria-hidden="true">*</span></label>
+                    <input type="number" id="card-expire-date" name="card-expire-date" required>
+                    
+                    <button type="submit">Place Order</button>
+                </form>
+            </section>
+        <main>
+    </body>
+</html>
+
