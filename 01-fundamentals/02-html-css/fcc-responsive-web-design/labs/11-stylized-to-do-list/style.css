@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(49, 60, 70);
+}
+
+main {
+    background-color: white;
+    padding: 3px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px
+}
+
+h1 {
+    text-align: center;
+}
+
+.item {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: green;
+}
+
+a:focus {
+    color: darkblue;
+}
+
+a:active {
+    color: brown;
+}
