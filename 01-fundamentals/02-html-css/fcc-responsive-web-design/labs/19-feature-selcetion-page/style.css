@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.feature-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  max-width: 700px;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.feature-card {
+  margin: 0 10px 20px;;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+  max-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 21px;
+  margin-bottom: 12px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+input[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  appearance: none;
+  border: 2px solid #f1be32;
+  border-radius: 4px;
+  background-color: white;
+  transition: all 0.3s;
+  margin: 0 5px 0 auto;
+}
+
+input[type='checkbox']:checked {
+  background-color: #f1be32;
+  border-color: #e2a60d;
+}
+
+input[type="checkbox"]:checked::after {
+  content: "✓";
+  display: block;
+  text-align: center;
+}
+
+.feature-card:hover {
+  border: 2px solid #f1be32;
+  box-shadow: 2px 2px 4px #f1be32;
+  transform: scale(1.05);
+}
+
+.feature-card:has(input:checked) {
+  border: 2px solid #f1be32;
+  box-shadow: 2px 2px 4px #f1be32;
+}
