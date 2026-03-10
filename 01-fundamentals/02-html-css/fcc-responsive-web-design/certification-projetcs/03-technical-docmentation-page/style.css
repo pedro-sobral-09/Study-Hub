@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+    text-align: center;
+    margin: 10px 0;
+    }
+
+    nav {
+        width: 90%;
+        height: 20vh;
+        border: 1px solid black;
+        margin: 0 auto;
+        overflow-y: auto;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        list-style-type: none;
+        height: 100%;
+    }
+
+    nav li {
+        border: 1px solid black;
+        text-align: center;
+        background-color: lightgray;
+        margin: 2px 0;
+    }
+
+    nav li:first-of-type {
+        margin-top: 0;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        display: block;
+        width: 100%;
+        padding: 7px 0;
+    }
+
+    .main-section h2 {
+        margin: 20px 0 0 20px;   
+    }
+
+    .main-section p {
+        margin: 10px 0 0 20px;
+        width: 90%;
+        text-align: justify;
+    }
+
+    .main-section li {
+        margin: 10px 0 0 50px;
+        width: 80%;
+        text-align: justify;
+    }
+
+    .main-section code {
+        display: block;
+        background-color: lightgray;
+        width: 90%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    body {
+        display: flex;
+    }
+    
+    header {
+        width: 25vw;
+        height: 100vh;
+        position: fixed;
+    }
+
+    main {
+        margin-left: 25vw;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 5px 0 10px;
+    }
+
+    nav {
+        width: 90%;
+        height: 85vh;
+        border: 1px solid black;
+        margin: 0 auto;
+        overflow-y: auto;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        list-style-type: none;
+        height: 100%;
+    }
+
+    nav li {
+        border: 1px solid black;
+        text-align: center;
+        background-color: lightgray;
+        margin: 2px 0;
+    }
+
+    nav li:first-of-type {
+        margin-top: 0;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        display: block;
+        width: 100%;
+        padding: 7px 0;
+    }
+
+    .main-section h2 {
+        margin: 20px 0 0 20px;   
+    }
+
+    .main-section p {
+        margin: 10px 0 0 20px;
+        width: 90%;
+        text-align: justify;
+    }
+
+    .main-section li {
+        margin: 10px 0 0 50px;
+        width: 80%;
+        text-align: justify;
+    }
+
+    .main-section code {
+        display: block;
+        background-color: lightgray;
+        width: 90%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+}
